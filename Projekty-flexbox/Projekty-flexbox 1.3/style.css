@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 50px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #333;
+	font-size: 40px;
+}
+
+section {
+	display: flex;
+	margin: 20px 0;
+	height: 300px;
+	border: 5px solid black;
+}
+
+.square {
+	width: 200px;
+	text-align: center;
+}
+.first {
+	flex-direction: column;
+}
+.first .two,
+.first .four {
+	flex-grow: 1;
+}
+
+.one {
+	background-color: gold;
+}
+.second {
+	justify-content: space-around;
+	align-items: center;
+}
+
+.two {
+	background-color: lime;
+}
+.third .one {
+	order: 5;
+	flex-grow: 1;
+}
+.third .two {
+	order: 4;
+}
+.third .four {
+	order: 1;
+	flex-grow: 3;
+}
+
+.three {
+	background-color: royalblue;
+}
+.fourth {
+	flex-direction: row-reverse;
+	align-items: flex-end;
+}
+.fourth .two {
+	align-self: start;
+}
+.fourth .three {
+	align-self: center;
+}
+.four {
+	background-color: tomato;
+}

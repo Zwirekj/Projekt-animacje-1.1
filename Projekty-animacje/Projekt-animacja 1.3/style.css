@@ -36,11 +36,11 @@ body {
 }
 
 .one {
-	background-image: url('portrait-657116_1920.jpg');
+	background-image: url('../img/portrait-657116_1920.jpg');
 }
 
 .two {
-	background-image: url('man-1690965_1920.jpg');
+	background-image: url('../img/man-1690965_1920.jpg');
 }
 
 button {
